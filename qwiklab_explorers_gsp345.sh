@@ -14,11 +14,11 @@ clear
 
 
 
-echo -e "${YELLOW_TEXT}${BOLD_TEXT}Enter the BUCKET name: ${RESET_FORMAT}\c"
+echo -e "${GREEN_TEXT}${BOLD_TEXT}Enter the BUCKET name: ${RESET_FORMAT}\c"
 read BUCKET
 export BUCKET
 echo
-echo -e "${YELLOW_TEXT}${BOLD_TEXT}Enter the INSTANCE name: ${RESET_FORMAT}\c"
+echo -e "${BLUE_TEXT}${BOLD_TEXT}Enter the INSTANCE name: ${RESET_FORMAT}\c"
 read INSTANCE
 export INSTANCE
 echo
